@@ -99,11 +99,12 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #7c8081;
-		font-family: 'Lato', sans-serif;
+		font-family: 'Ubuntu', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
 		line-height: 1.75em;
+		
 	}
 
 	a {
@@ -2441,7 +2442,7 @@ input, select, textarea {
 				border-left: solid 0.5em transparent;
 				border-right: solid 0.5em transparent;
 				content: '';
-				left: 0.75em;
+				right: 0.10em;
 				position: absolute;
 				top: -0.45em;
 			}
@@ -2524,7 +2525,7 @@ input, select, textarea {
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
-		height:43em;
+		height:35em;
 		
 	}
 
@@ -2541,9 +2542,8 @@ input, select, textarea {
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
-			padding: 7em;
+			padding: 4em;
 			text-align: center;
-			border: 1px solid black;
 
 		}
 
@@ -3338,7 +3338,5 @@ input, select, textarea {
 					height: auto;
 
 			}
-
-
 
 	}
