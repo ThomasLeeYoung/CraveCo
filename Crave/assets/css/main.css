@@ -1737,16 +1737,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		header.special:before, header.special:after {
-			border-bottom: solid 1.5px;
-			border-top: solid 1.5px;
-			content: '';
-			height: 7px;
-			opacity: 0.1;
-			position: absolute;
-			top: 1.75em;
-			width: 43%;
-		}
+
 
 		header.special:before {
 			left: 0;
@@ -3339,4 +3330,12 @@ input, select, textarea {
 
 			}
 
+			.quote-images {
+				border: 1px solid black;	
+				-moz-box-shadow:    3px 3px 5px 6px #ccc;
+				-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+				box-shadow:         3px 3px 5px 6px #ccc;
+			  }
+
+			  
 	}
